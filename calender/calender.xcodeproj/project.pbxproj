@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A404DF21E63BB45002CFBB5 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A404DF01E63BB45002CFBB5 /* Tool.swift */; };
-		0A404DF31E63BB45002CFBB5 /* UIView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A404DF11E63BB45002CFBB5 /* UIView+Category.swift */; };
-		0A404DF51E63BC1A002CFBB5 /* APPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A404DF41E63BC1A002CFBB5 /* APPTabBarController.swift */; };
+		0A46ADC01E666E81000009D9 /* APPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46ADBD1E666E81000009D9 /* APPTabBarController.swift */; };
+		0A46ADC11E666E81000009D9 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46ADBE1E666E81000009D9 /* Tool.swift */; };
+		0A46ADC21E666E81000009D9 /* UIView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46ADBF1E666E81000009D9 /* UIView+Category.swift */; };
+		0A46ADC41E6676E2000009D9 /* CalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46ADC31E6676E2000009D9 /* CalenderVC.swift */; };
+		0A46ADC61E6683C7000009D9 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46ADC51E6683C7000009D9 /* MoreVC.swift */; };
 		0A7323CF1E6009330096DC32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7323CE1E6009330096DC32 /* AppDelegate.swift */; };
 		0A7323D61E6009330096DC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7323D51E6009330096DC32 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A404DF01E63BB45002CFBB5 /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
-		0A404DF11E63BB45002CFBB5 /* UIView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Category.swift"; sourceTree = "<group>"; };
-		0A404DF41E63BC1A002CFBB5 /* APPTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPTabBarController.swift; sourceTree = "<group>"; };
+		0A46ADBD1E666E81000009D9 /* APPTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPTabBarController.swift; sourceTree = "<group>"; };
+		0A46ADBE1E666E81000009D9 /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		0A46ADBF1E666E81000009D9 /* UIView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Category.swift"; sourceTree = "<group>"; };
+		0A46ADC31E6676E2000009D9 /* CalenderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderVC.swift; sourceTree = "<group>"; };
+		0A46ADC51E6683C7000009D9 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
 		0A7323CB1E6009330096DC32 /* calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7323CE1E6009330096DC32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A7323D51E6009330096DC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +39,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A46ADB41E666E81000009D9 /* 个人日历 */ = {
+			isa = PBXGroup;
+			children = (
+				0A46ADB51E666E81000009D9 /* Controller */,
+				0A46ADB61E666E81000009D9 /* Model */,
+				0A46ADB71E666E81000009D9 /* View */,
+			);
+			path = "个人日历";
+			sourceTree = "<group>";
+		};
+		0A46ADB51E666E81000009D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A46ADC31E6676E2000009D9 /* CalenderVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A46ADB61E666E81000009D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A46ADB71E666E81000009D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A46ADB81E666E81000009D9 /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				0A46ADB91E666E81000009D9 /* Controller */,
+				0A46ADBA1E666E81000009D9 /* Model */,
+				0A46ADBB1E666E81000009D9 /* View */,
+			);
+			path = "更多";
+			sourceTree = "<group>";
+		};
+		0A46ADB91E666E81000009D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A46ADC51E6683C7000009D9 /* MoreVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A46ADBA1E666E81000009D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A46ADBB1E666E81000009D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A46ADBC1E666E81000009D9 /* 公用 */ = {
+			isa = PBXGroup;
+			children = (
+				0A46ADBD1E666E81000009D9 /* APPTabBarController.swift */,
+				0A46ADBE1E666E81000009D9 /* Tool.swift */,
+				0A46ADBF1E666E81000009D9 /* UIView+Category.swift */,
+			);
+			path = "公用";
+			sourceTree = "<group>";
+		};
 		0A7323C21E6009330096DC32 = {
 			isa = PBXGroup;
 			children = (
@@ -55,9 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				0A7323CE1E6009330096DC32 /* AppDelegate.swift */,
-				0A404DF41E63BC1A002CFBB5 /* APPTabBarController.swift */,
-				0A404DF01E63BB45002CFBB5 /* Tool.swift */,
-				0A404DF11E63BB45002CFBB5 /* UIView+Category.swift */,
+				0A46ADB41E666E81000009D9 /* 个人日历 */,
+				0A46ADB81E666E81000009D9 /* 更多 */,
+				0A46ADBC1E666E81000009D9 /* 公用 */,
 				0A7323D51E6009330096DC32 /* Assets.xcassets */,
 				0A7323DA1E6009330096DC32 /* Info.plist */,
 			);
@@ -135,10 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A46ADC11E666E81000009D9 /* Tool.swift in Sources */,
+				0A46ADC61E6683C7000009D9 /* MoreVC.swift in Sources */,
 				0A7323CF1E6009330096DC32 /* AppDelegate.swift in Sources */,
-				0A404DF51E63BC1A002CFBB5 /* APPTabBarController.swift in Sources */,
-				0A404DF21E63BB45002CFBB5 /* Tool.swift in Sources */,
-				0A404DF31E63BB45002CFBB5 /* UIView+Category.swift in Sources */,
+				0A46ADC21E666E81000009D9 /* UIView+Category.swift in Sources */,
+				0A46ADC41E6676E2000009D9 /* CalenderVC.swift in Sources */,
+				0A46ADC01E666E81000009D9 /* APPTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
