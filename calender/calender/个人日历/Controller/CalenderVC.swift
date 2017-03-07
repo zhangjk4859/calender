@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import FSCalendar
 
-class CalenderVC: UIViewController {
+class CalenderVC: UIViewController,FSCalendarDataSource,FSCalendarDelegate{
+    //日历属性
+    fileprivate var calendar:FSCalendar?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,12 @@ class CalenderVC: UIViewController {
         //3.设置导航栏标题
         navigationItem.title = "123"
         //4.添加日历控件
+        calendar = FSCalendar(frame: CGRect(x: CGFloat(0), y: CGFloat(64), width: CGFloat(view.frame.size.width), height: CGFloat(300)))
+        calendar?.dataSource = self
+        calendar?.delegate = self
+        calendar?.backgroundColor = UIColor.white
+        view.addSubview(calendar!)
+        
         
     }
 
