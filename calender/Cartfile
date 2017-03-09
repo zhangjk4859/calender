@@ -1,2 +1,3 @@
 github "WenchaoD/FSCalendar"
 github "Alamofire/Alamofire" ~> 4.4
+github "instant-solutions/ISTimeline" ~> 0.0.5

@@ -3,26 +3,26 @@
   "iOS" : [
     {
       "name" : "Alamofire",
-      "md5" : "a204d1f09ed9b9af1ab2b5cfbf205bab"
+      "md5" : "1eb0b83084d1c0500b56010d32f7e953"
     }
   ],
   "xcodeVersion" : "Xcode 8.2.1\nBuild version 8C1002",
   "watchOS" : [
     {
       "name" : "Alamofire",
-      "md5" : "6f00ba251deebe6aef9d1766f84caadd"
+      "md5" : "f122935395a830ecfff05e1722e31036"
     }
   ],
   "tvOS" : [
     {
       "name" : "Alamofire",
-      "md5" : "4958a9b318b6cd46886fa905452704ab"
+      "md5" : "f58bef0fac817b3c8b7c5bbf34b835d4"
     }
   ],
   "Mac" : [
     {
       "name" : "Alamofire",
-      "md5" : "f483e71db50fc65a701b6b8704adaaa8"
+      "md5" : "bf757961cd57cdc3fe3f1e6cda9045ad"
     }
   ]
 }
